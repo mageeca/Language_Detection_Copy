@@ -1,0 +1,18 @@
+{
+  "Version": "001",
+  "Year": "2024",
+  "Semester": "Spring",
+  "project_name": "Language Detection Using Audio Data",
+  "Objective": " \n            The objective of the project is to develop a language detection program using the Common Voice dataset. This dataset \n            contains a collection of speech recordings covering a range of languages, accents, and dialects. Using this extensive \n            dataset, our project aims to create a program that can accurately identify which language a human is speaking based on \n            various types of speech recordings. This type of project is crucial for facilitating communication across different \n            language barriers by being able to detect and transcribe various languages.\n            ",
+  "Dataset": "\n            As mentioned above, we will be using data from the Common Voice dataset created by Mozilla. The dataset is publicly \n            available and contains audio recordings of various human voices. Recordings are done by volunteers and the database \n            contains recordings of over 50 languages. \n            ",
+  "Rationale": "\n            By developing a language detection program, we hope to tackle linguistic barriers and promote effective communication \n            within our interconnected global communities. The first step to breaking this barrier is to develop a program that has \n            the ability to detect a language by speech alone. \n            ",
+  "Approach": "\n            To approach a problem like this, we will have to use deep learning techniques such as neural networks to develop an \n            effective model. Convolutional neural networks, which are effective for image recognition problems, can also be very \n            effective when working with audio data. We believe that these types of networks will work well when classifying audio \n            data. We are also open to exploring different network structures. \n            ",
+  "Timeline": "\n            Jan 29: Proposal\n            Feb 5: Elevator pitch\n            Feb 12: EDA and research on NN with audio data\n            Feb 19: Preliminary network design\n            Feb 26: Continue with network design\n            March 4: Fine tuning network\n            April 15: Mock Presentation\n            April 22: Mock Presentation\n            April 29: Poster session\n            May 3: Video Presentation\n            May 6: Final report due\n            ",
+  "Expected Number Students": "\n            There will be 2 students working on this project: Carrie Magee and Jack McMorrow.  \n            ",
+  "Possible Issues": "\n            Considering the recordings are conducted on a voluntary basis, the dataset lacks representation of various language \n            groups. Therefore, the program may not perform equally on every individual voice. Other technical issues could include \n            the management and storage of the dataset.\n            ",
+  "Proposed by": "Jack McMorrow and Carrie Magee",
+  "Proposed by email": "jmcmorrow@gwu.edu, mageec@gwu.edu",
+  "instructor": "Edwin Lo",
+  "instructor_email": "edwinlo@gwu.edu",
+  "github_repo": "https://github.com/amir-jafari/Capstone"
+}

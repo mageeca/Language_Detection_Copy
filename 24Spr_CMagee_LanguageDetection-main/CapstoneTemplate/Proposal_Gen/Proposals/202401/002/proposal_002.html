@@ -1,0 +1,67 @@
+<h1>Capstone Proposal</h1>
+<h2>Language Detection Using Audio Data</h2>
+<h3>Proposed by: Jack McMorrow</h3>
+<h4>Email: jmcmorrow@gwu.edu</h4>
+<h4>Advisor: Edwin Lo</h4>
+<h4>The George Washington University, Washington DC</h4>
+<h4>Data Science Program</h4>
+<h2>1 Objective:</h2>
+<pre><code>        The goal of this project is to use deep learning neural networks to develop a language detection program of audio 
+        data. Using short audio clips from different languages, accents, and dialects, we believe it will be possible to 
+        develop a model that will be able to distinguish the different languages in an efficient and precise manner. 
+</code></pre>
+<h1><img src="202401_002.png" alt="Figure 1: Example figure"></h1>
+<h1><em>Figure 1: Caption</em></h1>
+<h2>2 Dataset:</h2>
+<pre><code>        The dataset that we are using is called the Common Voice Corpus 16.1. This contains thousands of short clips of people 
+        speaking in their respective languages on a voluntary basis. It contains over 3,438 hours of audio in 120 different 
+        languages. Conveniently, the data is already located in Hugging Face which makes it much more accessible to us.
+
+        The link to the original database can be found here: https://commonvoice.mozilla.org/en/datasets
+
+        And the Hugging Face datasource can be found here: https://huggingface.co/datasets/mozilla-foundation/common_voice_16_1
+</code></pre>
+<h2>3 Rationale:</h2>
+<pre><code>        Language barriers are often a common problem in communication. Whether it be for educational, business, travel, or 
+        conversational reasons, not understanding each other's language can make it impossible to communicate effectively. 
+        Technology can aid in this communication in various ways. The first step to facilitate effective communication across 
+        languages is to identify what language is being spoken. This can be difficult considering different dialects and accents 
+        across different languages. Having an effective program that will be able to understand the language through just a 
+        short clip can initiate communication between people using different languages.
+</code></pre>
+<h2>4 Approach:</h2>
+<pre><code>        We will begin this problem by accessing the dataset and doing some EDA. We found that many languages had little audio 
+        data, so we decided to limit to languages with over 100 hours of data, which comes down to 43 languages. After the EDA 
+        and preparing the data, we will begin with experimenting with different model architectures. Convolutional neural 
+        networks are effective with image recognition problems, and we think they would be promising for a project like this 
+        one, too. After selecting a model architecture we will be doing model tuning to perfect its performance with language 
+        detection.
+</code></pre>
+<h2>5 Timeline:</h2>
+<pre><code>        Jan 29: Proposal
+        Feb 5: Elevator pitch
+        Feb 12: EDA and research on NN with audio data
+        Feb 19: Preliminary network design
+        Feb 26: Continue with network design
+        March 4: Fine tuning network
+        April 15: Fine tuning network
+        April 22: Fine tuning network
+        April 29: Poster session
+        May 3: Video Presentation
+        May 6: Final report due
+</code></pre>
+<h2>6 Expected Number Students:</h2>
+<pre><code>        There will be two students on this project: Carrie Magee and Jack McMorrow 
+</code></pre>
+<h2>7 Possible Issues:</h2>
+<pre><code>        Considering that the data is provided at a voluntary basis, this could prove to have some issues regarding representation 
+        of various language groups. As we have already seen, some languages do not have a lot of samples, which we may decide to 
+        leave out of the model. Additionally, the full dataset is very large, at around 80 gigabytes. Therefore, management and 
+        storage of the data itself could prove to be a challenge.
+</code></pre>
+<h2>Contact</h2>
+<ul>
+<li>Author: Edwin Lo</li>
+<li>Email: <a href="Eamil">edwinlo@gwu.edu</a></li>
+<li>GitHub: <a href="Git Hub rep">https://github.com/amir-jafari/Capstone</a></li>
+</ul>
